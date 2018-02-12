@@ -35,4 +35,15 @@ dependencies {
     //注解
     implementation 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    implementation files('libs/libammsdk.jar')
+
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'com.squareup.okhttp:okhttp:2.7.5'
+    implementation 'com.squareup.okio:okio:1.7.0'
+
+    compile 'com.android.support:design:23.3.0'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'io.reactivex.rxjava2:rxjava:2.1.8'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'//retrofit
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'//转换器，请求结果转换成Model
 }
